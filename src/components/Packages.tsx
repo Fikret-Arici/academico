@@ -31,7 +31,7 @@ const Packages = () => {
     },
     {
       title: "📚 LGS Hazırlık Paketi",
-      description: "Yapay zekâ destekli kişisel program ile üniversite sınavına hazırlanın",
+      description: "Yapay zekâ destekli kişisel program ile Lise sınavına hazırlanın",
       icon: <BookOpen className="w-8 h-8" />,
       features: ["Günlük performans takibi", "Psikolojik destek ve sınav koçluğu", "Deneme sınavı ve analizleri", "Öğrenciye özel birebir dersler"],
       price: "₺1800/ay",
