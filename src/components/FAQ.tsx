@@ -92,7 +92,7 @@ const FAQ = () => {
           <p className="text-gray-600 mb-6">
             Sorunuzun cevabını bulamadınız mı?
           </p>
-          <a href="https://wa.me/905309354275" target="_blank" rel="noopener noreferrer" className="inline-block bg-[#C0392B] hover:bg-[#F5B041] text-white hover:text-[#1C1C1C] font-semibold px-8 py-3 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl mb-4">
+          <a href="https://wa.me/905443731454" target="_blank" rel="noopener noreferrer" className="inline-block bg-[#C0392B] hover:bg-[#F5B041] text-white hover:text-[#1C1C1C] font-semibold px-8 py-3 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl mb-4">
             WhatsApp'tan Bize Ulaşın
           </a>
         </div>

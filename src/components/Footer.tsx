@@ -25,7 +25,7 @@ const legalContents = {
     title: 'İptal & İade',
     content: `
       <b>İptal ve İade Koşulları</b><br/><br/>
-      Satın aldığınız eğitim veya koçluk paketlerinden memnun kalmazsanız, ilk dersten sonra koşulsuz iade hakkınız vardır. İptal ve iade taleplerinizi info@academico.com.tr adresine iletebilirsiniz. İade işlemleri 7 iş günü içinde tamamlanır.`
+      Satın aldığınız eğitim veya koçluk paketlerinden memnun kalmazsanız, ilk dersten sonra koşulsuz iade hakkınız vardır. İptal ve iade taleplerinizi 3academico5@gmail.com adresine iletebilirsiniz. İade işlemleri 7 iş günü içinde tamamlanır.`
   },
   sss: {
     title: 'Sıkça Sorulan Sorular',
@@ -57,10 +57,10 @@ const Footer = () => {
               <a href="https://www.instagram.com/academicokocluk/" target="_blank" rel="noopener noreferrer" className="bg-white/10 hover:bg-[#F5B041] p-3 rounded-lg transition-all duration-300 hover:scale-110">
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="#" className="bg-white/10 hover:bg-[#F5B041] p-3 rounded-lg transition-all duration-300 hover:scale-110">
+              <a href="https://www.linkedin.com/company/academico-e%C4%9Fitim-platformu/about/?viewAsMember=true" target="_blank" rel="noopener noreferrer" className="bg-white/10 hover:bg-[#F5B041] p-3 rounded-lg transition-all duration-300 hover:scale-110">
                 <Linkedin className="w-5 h-5" />
               </a>
-              <a href="https://wa.me/905309354275" target="_blank" rel="noopener noreferrer" className="bg-white/10 hover:bg-[#25D366] p-3 rounded-lg transition-all duration-300 hover:scale-110">
+              <a href="https://wa.me/905443731454" target="_blank" rel="noopener noreferrer" className="bg-white/10 hover:bg-[#25D366] p-3 rounded-lg transition-all duration-300 hover:scale-110">
                 <FaWhatsapp className="w-5 h-5" />
               </a>
               <a href="#" className="bg-white/10 hover:bg-[#F5B041] p-3 rounded-lg transition-all duration-300 hover:scale-110">
@@ -102,7 +102,11 @@ const Footer = () => {
               </div>
               <div className="flex items-center">
                 <Phone className="w-5 h-5 text-[#F5B041] mr-3" />
-                <span className="text-white/80">+90 530 935 4275</span>
+                <span className="text-white/80">+90 544 373 14 54</span>
+              </div>
+              <div className="flex items-center">
+                <Phone className="w-5 h-5 text-[#F5B041] mr-3" />
+                <span className="text-white/80">@academicokocluk</span>
               </div>
             </div>
           </div>

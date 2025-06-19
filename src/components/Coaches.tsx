@@ -1,7 +1,31 @@
 import React from 'react';
 import Slider from 'react-slick';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+
+// Custom ok bileşenleri
+interface ArrowProps {
+  onClick?: () => void;
+}
+
+const PrevArrow: React.FC<ArrowProps> = ({ onClick }) => (
+  <button
+    onClick={onClick}
+    className="absolute left-4 top-1/2 -translate-y-1/2 z-10 bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white p-3 rounded-full transition-all duration-300 group"
+  >
+    <ChevronLeft className="w-6 h-6 group-hover:scale-110 transition-transform" />
+  </button>
+);
+
+const NextArrow: React.FC<ArrowProps> = ({ onClick }) => (
+  <button
+    onClick={onClick}
+    className="absolute right-4 top-1/2 -translate-y-1/2 z-10 bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white p-3 rounded-full transition-all duration-300 group"
+  >
+    <ChevronRight className="w-6 h-6 group-hover:scale-110 transition-transform" />
+  </button>
+);
 
 const coaches = [
   {
@@ -58,7 +82,7 @@ const coaches = [
     university: "Katip Çelebi Üniversitesi",
     degree: "Tıp",
     ranking: "TYT 5765. SAY 9653.",
-    image: "/images/coaches/İsmet Bilgin.jpg"
+    image: "/images/coaches/ismet Bilgin.jpg"
   },
   {
     name: "Bilgehan Başaran",
@@ -130,14 +154,18 @@ const coaches = [
 const sliderSettings = {
   dots: false,
   infinite: true,
-  speed: 2000,
+  speed: 500,
   slidesToShow: 3,
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 3000,
-  cssEase: "linear",
+  cssEase: "ease-out",
   pauseOnHover: true,
-  arrows: false,
+  swipe: true,
+  swipeToSlide: true,
+  arrows: true,
+  prevArrow: <PrevArrow />,
+  nextArrow: <NextArrow />,
   responsive: [
     {
       breakpoint: 1024,
@@ -166,32 +194,34 @@ const Coaches = () => {
             Alanında uzman, başarılı koçlarımız ile eğitim yolculuğunuza başlayın
           </p>
         </div>
-        <Slider {...sliderSettings}>
-          {coaches.map((coach, index) => (
-            <div key={index} className="px-2">
-              <div className="relative w-full h-[500px] rounded-3xl overflow-hidden shadow-2xl group flex flex-col justify-end">
-                {/* Büyük Koç Fotoğrafı */}
-                <img 
-                  src={coach.image} 
-                  alt={coach.name}
-                  className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
-                  style={{ aspectRatio: '3/4' }}
-                />
-                {/* Overlay */}
-                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-6 flex flex-col gap-2">
-                  <span className="bg-[#F5B041] text-[#1C1C1C] px-4 py-1 rounded-full text-base font-semibold shadow-lg self-start mb-2">
-                    {coach.ranking}
-                  </span>
-                  <h3 className="text-2xl font-bold text-white drop-shadow-lg">
-                    {coach.name}
-                  </h3>
-                  <p className="text-lg text-[#F5B041] font-semibold drop-shadow-lg">{coach.university}</p>
-                  <p className="text-base text-white drop-shadow-lg">{coach.degree}</p>
+        <div className="relative px-8">
+          <Slider {...sliderSettings}>
+            {coaches.map((coach, index) => (
+              <div key={index} className="px-2">
+                <div className="relative w-full h-[500px] rounded-3xl overflow-hidden shadow-2xl group flex flex-col justify-end">
+                  {/* Büyük Koç Fotoğrafı */}
+                  <img 
+                    src={coach.image} 
+                    alt={coach.name}
+                    className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                    style={{ aspectRatio: '3/4' }}
+                  />
+                  {/* Overlay */}
+                  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-6 flex flex-col gap-2">
+                    <span className="bg-[#F5B041] text-[#1C1C1C] px-4 py-1 rounded-full text-base font-semibold shadow-lg self-start mb-2">
+                      {coach.ranking}
+                    </span>
+                    <h3 className="text-2xl font-bold text-white drop-shadow-lg">
+                      {coach.name}
+                    </h3>
+                    <p className="text-lg text-[#F5B041] font-semibold drop-shadow-lg">{coach.university}</p>
+                    <p className="text-base text-white drop-shadow-lg">{coach.degree}</p>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
-        </Slider>
+            ))}
+          </Slider>
+        </div>
       </div>
     </section>
   );
