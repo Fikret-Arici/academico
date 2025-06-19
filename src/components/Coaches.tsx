@@ -170,13 +170,25 @@ const sliderSettings = {
     {
       breakpoint: 1024,
       settings: {
-        slidesToShow: 2
+        slidesToShow: 2,
+        slidesToScroll: 1
       }
     },
     {
-      breakpoint: 600,
+      breakpoint: 768,
       settings: {
-        slidesToShow: 1
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        autoplay: false
       }
     }
   ]
@@ -194,28 +206,27 @@ const Coaches = () => {
             Alanında uzman, başarılı koçlarımız ile eğitim yolculuğunuza başlayın
           </p>
         </div>
-        <div className="relative px-8">
+        <div className="relative px-2 sm:px-4 md:px-8">
           <Slider {...sliderSettings}>
             {coaches.map((coach, index) => (
               <div key={index} className="px-2">
-                <div className="relative w-full h-[500px] rounded-3xl overflow-hidden shadow-2xl group flex flex-col justify-end">
+                <div className="relative w-full h-[400px] sm:h-[450px] md:h-[500px] rounded-3xl overflow-hidden shadow-2xl group flex flex-col justify-end">
                   {/* Büyük Koç Fotoğrafı */}
                   <img 
                     src={coach.image} 
                     alt={coach.name}
                     className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
-                    style={{ aspectRatio: '3/4' }}
                   />
                   {/* Overlay */}
-                  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-6 flex flex-col gap-2">
-                    <span className="bg-[#F5B041] text-[#1C1C1C] px-4 py-1 rounded-full text-base font-semibold shadow-lg self-start mb-2">
+                  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-4 sm:p-6 flex flex-col gap-1 sm:gap-2">
+                    <span className="bg-[#F5B041] text-[#1C1C1C] px-3 sm:px-4 py-1 rounded-full text-sm sm:text-base font-semibold shadow-lg self-start mb-1 sm:mb-2">
                       {coach.ranking}
                     </span>
-                    <h3 className="text-2xl font-bold text-white drop-shadow-lg">
+                    <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-white drop-shadow-lg">
                       {coach.name}
                     </h3>
-                    <p className="text-lg text-[#F5B041] font-semibold drop-shadow-lg">{coach.university}</p>
-                    <p className="text-base text-white drop-shadow-lg">{coach.degree}</p>
+                    <p className="text-sm sm:text-base md:text-lg text-[#F5B041] font-semibold drop-shadow-lg">{coach.university}</p>
+                    <p className="text-xs sm:text-sm md:text-base text-white drop-shadow-lg">{coach.degree}</p>
                   </div>
                 </div>
               </div>

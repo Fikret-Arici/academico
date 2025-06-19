@@ -11,7 +11,7 @@ const HemenBasla = () => {
           Bize ulaşmak için aşağıdaki kanallardan dilediğinizi seçebilirsiniz. İsterseniz formu doldurun, uzman ekibimiz en kısa sürede size ulaşsın!
         </p>
         <div className="flex justify-center gap-6 mb-8">
-          <a href="https://www.instagram.com/academicokocluk/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-[#F5B041] hover:bg-[#C0392B] text-[#1C1C1C] hover:text-white px-6 py-3 rounded-xl font-semibold text-lg transition-all duration-300 shadow-md">
+          <a href="https://www.instagram.com/direct/t/17846719950501194" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-[#F5B041] hover:bg-[#C0392B] text-[#1C1C1C] hover:text-white px-6 py-3 rounded-xl font-semibold text-lg transition-all duration-300 shadow-md">
             <Instagram className="w-6 h-6" /> Instagram
           </a>
           <a href="https://wa.me/905443731454" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-[#25D366] hover:bg-[#128C7E] text-white px-6 py-3 rounded-xl font-semibold text-lg transition-all duration-300 shadow-md">

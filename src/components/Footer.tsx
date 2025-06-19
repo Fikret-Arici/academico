@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Instagram, Linkedin, Youtube, Mail, Phone, MapPin } from 'lucide-react';
+import { Instagram, Linkedin, Youtube, Mail, Phone } from 'lucide-react';
 import { FaWhatsapp } from 'react-icons/fa';
 
 const legalContents = {
