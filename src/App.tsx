@@ -30,6 +30,12 @@ function App() {
 
 
           </p>
+          <div className="mt-16">
+            <h3 className="text-3xl md:text-4xl font-bold text-[#C0392B] mb-6">Vizyonumuz</h3>
+            <p className="text-xl text-[#1C1C1C] max-w-3xl mx-auto leading-relaxed">
+              academico olarak vizyonumuz, Türkiye'de ve dünyada eğitimde bireyselleştirilmiş öğrenmenin öncüsü olmaktır. Yapay zeka ve veri temelli yaklaşımlarımızla her öğrencinin potansiyelini en üst düzeye çıkarmayı hedefliyoruz. Sadece bugünün değil, geleceğin de eğitim ihtiyaçlarını karşılayan, yenilikçi ve sürdürülebilir çözümler geliştirerek, öğrenmeyi herkes için erişilebilir, etkili ve motive edici hale getirmeyi amaçlıyoruz.
+            </p>
+          </div>
         </div>
       </section>
       <Features />

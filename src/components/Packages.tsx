@@ -99,7 +99,7 @@ const Packages = () => {
       description: "Haftalık birebir gelişim takibi ve kişisel hedef belirleme",
       icon: <Award className="w-8 h-8" />,
       features: ["Kişisel hedef belirleme ve motivasyon", "Verimli ders çalışma teknikleri", "Mental destek ve sınav psikolojisi", "Veli bilgilendirme & ilerleme raporu"],
-      price: "₺2000/ay",
+      price: "₺1800/ay",
       category: "Koçluk"
     },
     {

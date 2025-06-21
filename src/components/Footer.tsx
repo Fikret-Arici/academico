@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Instagram, Linkedin, Youtube, Mail, Phone } from 'lucide-react';
-import { FaWhatsapp } from 'react-icons/fa';
+import { FaWhatsapp, FaTiktok } from 'react-icons/fa';
 
 const legalContents = {
   kvkk: {
@@ -53,18 +53,22 @@ const Footer = () => {
               Yapay zeka destekli kişiselleştirilmiş eğitim ve koçluk platformu. 
               Hedeflerinize ulaşmak için yanınızdayız.
             </p>
-            <div className="flex space-x-4">
-              <a href="https://www.instagram.com/academicokocluk/" target="_blank" rel="noopener noreferrer" className="bg-white/10 hover:bg-[#F5B041] p-3 rounded-lg transition-all duration-300 hover:scale-110">
-                <Instagram className="w-5 h-5" />
+            <h4 className="text-lg font-semibold mb-4 text-[#F5B041]">Bizi Takip Edin</h4>
+            <div className="flex space-x-2">
+              <a href="https://www.instagram.com/academicokocluk/" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-all duration-300 p-2 rounded-full hover:bg-white/10">
+                <Instagram className="w-6 h-6" />
               </a>
-              <a href="https://www.linkedin.com/company/academico-e%C4%9Fitim-platformu/about/?viewAsMember=true" target="_blank" rel="noopener noreferrer" className="bg-white/10 hover:bg-[#F5B041] p-3 rounded-lg transition-all duration-300 hover:scale-110">
-                <Linkedin className="w-5 h-5" />
+              <a href="https://www.linkedin.com/company/academico-e%C4%9Fitim-platformu/about/?viewAsMember=true" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-all duration-300 p-2 rounded-full hover:bg-white/10">
+                <Linkedin className="w-6 h-6" />
               </a>
-              <a href="https://wa.me/905443731454" target="_blank" rel="noopener noreferrer" className="bg-white/10 hover:bg-[#25D366] p-3 rounded-lg transition-all duration-300 hover:scale-110">
-                <FaWhatsapp className="w-5 h-5" />
+              <a href="https://wa.me/905443731454" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-all duration-300 p-2 rounded-full hover:bg-white/10">
+                <FaWhatsapp className="w-6 h-6" />
               </a>
-              <a href="#" className="bg-white/10 hover:bg-[#F5B041] p-3 rounded-lg transition-all duration-300 hover:scale-110">
-                <Youtube className="w-5 h-5" />
+              <a href="https://www.youtube.com/channel/UCPM8-JyLMKJajPyMokIHTYg" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-all duration-300 p-2 rounded-full hover:bg-white/10">
+                <Youtube className="w-6 h-6" />
+              </a>
+              <a href="https://www.tiktok.com/@academicoegitim" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-all duration-300 p-2 rounded-full hover:bg-white/10">
+                <FaTiktok className="w-6 h-6" />
               </a>
             </div>
           </div>
@@ -96,18 +100,18 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-6 text-[#F5B041]">İletişim</h3>
             <div className="space-y-4">
-              <div className="flex items-center">
-                <Mail className="w-5 h-5 text-[#F5B041] mr-3" />
-                <span className="text-white/80">3academico5@gmail.com</span>
-              </div>
-              <div className="flex items-center">
-                <Phone className="w-5 h-5 text-[#F5B041] mr-3" />
-                <span className="text-white/80">+90 544 373 14 54</span>
-              </div>
-              <div className="flex items-center">
-                <Phone className="w-5 h-5 text-[#F5B041] mr-3" />
-                <span className="text-white/80">@academicokocluk</span>
-              </div>
+              <a href="mailto:3academico5@gmail.com" className="flex items-center group">
+                <Mail className="w-5 h-5 text-[#F5B041] mr-3 group-hover:scale-110 transition-transform" />
+                <span className="text-white/80 group-hover:text-white transition-colors">3academico5@gmail.com</span>
+              </a>
+              <a href="tel:+905443731454" className="flex items-center group">
+                <Phone className="w-5 h-5 text-[#F5B041] mr-3 group-hover:scale-110 transition-transform" />
+                <span className="text-white/80 group-hover:text-white transition-colors">+90 544 373 14 54</span>
+              </a>
+              <a href="https://www.instagram.com/academicokocluk/" target="_blank" rel="noopener noreferrer" className="flex items-center group">
+                <Instagram className="w-5 h-5 text-[#F5B041] mr-3 group-hover:scale-110 transition-transform" />
+                <span className="text-white/80 group-hover:text-white transition-colors">@academicokocluk</span>
+              </a>
             </div>
           </div>
         </div>
