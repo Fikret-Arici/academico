@@ -25,7 +25,7 @@ const Packages = () => {
       title: "🎯 YKS Hazırlık Paketi",
       description: "Yapay zekâ destekli kişisel program ile üniversite sınavına hazırlanın",
       icon: <Target className="w-8 h-8" />,
-      features: ["Her derse özel deneme analizleri", "Zayıf konuya odaklı çalışma planı", "AI destekli soru bankası", "Koçluk ve motivasyon takibi"],
+      features: ["Her derse özel deneme analizleri", "Zayıf konuya odaklı çalışma planı", "AI destekli deneme analizleri", "Koçluk ve motivasyon takibi"],
       price: "₺1800/ay",
       category: "Sınav Hazırlık"
     },

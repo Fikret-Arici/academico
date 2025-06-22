@@ -24,7 +24,7 @@ function App() {
           <p className="text-xl text-[#1C1C1C] max-w-3xl mx-auto mb-8 leading-relaxed">
             <span className="font-bold text-[#F5B041]">academico</span>, Türkiye'nin alanında en iyi eğitmenlerini özenle seçen, yapay zeka destekli kişiselleştirilmiş eğitim ve koçluk platformudur. Her öğrencinin hedeflerine ulaşması için en güncel teknolojilerle, bilimsel yöntemlerle ve bireysel ihtiyaçlara göre tasarlanmış programlarla çalışıyoruz. 
             <br /><br />
-            Sistemimizde yer alan tüm koçlar, kendi alanlarında ilk 10.000 içinde derece yapmış, pedagojik formasyona sahip ve başarılarıyla öne çıkan profesyonellerdir. Tecrübemizle başarınızı garantilemek için buradayız. Öğrencilerimize sadece bilgi değil, aynı zamanda ilham ve motivasyon da sunuyoruz.
+            Sistemimizde yer alan tüm koçlar, kendi alanlarında ilk 10.000 içinde derece yapmış ve başarılarıyla öne çıkan profesyonellerdir. Tecrübemizle başarınızı garantilemek için buradayız. Öğrencilerimize sadece bilgi değil, aynı zamanda ilham ve motivasyon da sunuyoruz.
             <br /><br />
             AI tabanlı analizlerimizle her öğrencinin güçlü ve gelişime açık yönlerini tespit ediyor, ona en uygun öğrenme yolculuğunu sunuyoruz. Sektördeki liderliğimiz, yüksek başarı oranlarımız ve öğrenci memnuniyetimizle gurur duyuyoruz.
 
