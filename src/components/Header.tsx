@@ -10,7 +10,9 @@ const Header = () => {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <div className="flex items-center">
-            <img src="/logo.jpg" alt="Academico" className="h-14 w-auto md:h-16" />
+            <a href="#anasayfa" className="cursor-pointer hover:opacity-80 transition-opacity duration-200">
+              <img src="/logo.jpg" alt="Academico" className="h-14 w-auto md:h-16" />
+            </a>
           </div>
 
           {/* Desktop Navigation */}

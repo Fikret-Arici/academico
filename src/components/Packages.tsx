@@ -95,14 +95,6 @@ const Packages = () => {
       category: "Teknoloji"
     },
     {
-      title: "🧠 Koçluk Paketi",
-      description: "Haftalık birebir gelişim takibi ve kişisel hedef belirleme",
-      icon: <Award className="w-8 h-8" />,
-      features: ["Kişisel hedef belirleme ve motivasyon", "Verimli ders çalışma teknikleri", "Mental destek ve sınav psikolojisi", "Veli bilgilendirme & ilerleme raporu"],
-      price: "₺1800/ay",
-      category: "Koçluk"
-    },
-    {
       title: "Soru Çözüm Paketi",
       description: "Her ders için özel soru çözüm teknikleri ve pratik uygulamalar",
       icon: <Calculator className="w-8 h-8" />,
@@ -111,11 +103,11 @@ const Packages = () => {
       category: "Soru Çözüm"
     },
     {
-      title: "Üniversite Seçim Danışmanlığı",
+      title: "Üniversite Tercih Danışmanlığı",
       description: "Kişisel ilgi ve yeteneklerinize uygun üniversite ve bölüm seçimi",
       icon: <Target className="w-8 h-8" />,
       features: ["Kişilik ve yetenek analizi", "Bölüm ve meslek tanıtımları", "Üniversite araştırma ve karşılaştırma", "Kariyer planlama ve hedef belirleme"],
-      price: "₺750/seans",
+      price: "₺500/seans",
       category: "Danışmanlık"
     }
   ];
