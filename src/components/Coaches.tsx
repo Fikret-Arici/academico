@@ -28,13 +28,7 @@ const NextArrow: React.FC<ArrowProps> = ({ onClick }) => (
 );
 
 const coaches = [
-  {
-    name: "Emir Çanakkale",
-    university: "Boğaziçi Üniversitesi",
-    degree: "Bilgisayar Mühendisliği",
-    ranking: "SAY 145.",
-    image: "/images/coaches/Emir Çanakkale.jpg"
-  },
+  
   {
     name: "Ahmet Agah Bozkır",
     university: "Bilkent Üniversitesi",
