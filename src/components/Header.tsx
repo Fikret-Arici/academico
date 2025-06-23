@@ -11,7 +11,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center">
             <a href="#anasayfa" className="cursor-pointer hover:opacity-80 transition-opacity duration-200">
-              <img src="/logo.jpg" alt="Academico" className="h-14 w-auto md:h-16" />
+              <img src="/images/logo.jpg" alt="Academico" className="h-14 w-auto md:h-16" />
             </a>
           </div>
 
