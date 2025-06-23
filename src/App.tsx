@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Packages from './components/Packages';
@@ -9,6 +9,16 @@ import Footer from './components/Footer';
 import HemenBasla from './components/HemenBasla';
 
 function App() {
+  useEffect(() => {
+    // Sayfa yüklendiğinde en üste scroll yap
+    window.scrollTo(0, 0);
+    
+    // URL'deki hash'i temizle
+    if (window.location.hash) {
+      window.history.replaceState(null, '', window.location.pathname);
+    }
+  }, []);
+
   if (window.location.pathname === '/hemen-basla') {
     return <HemenBasla />;
   }
