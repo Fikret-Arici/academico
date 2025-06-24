@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Instagram, ArrowLeft } from 'lucide-react';
 import { FaWhatsapp } from 'react-icons/fa';
+import OgrenciKayitFormu from './OgrenciKayitFormu';
 
 const HemenBasla = () => {
+  const [showForm, setShowForm] = useState(false);
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#F8F4EF] to-white flex flex-col items-center justify-center px-4 py-16 relative">
       <a href="/" className="absolute top-8 left-8 flex items-center gap-2 text-[#C0392B] hover:text-[#F5B041] transition-all duration-300 font-semibold text-lg">
@@ -24,16 +26,22 @@ const HemenBasla = () => {
         </div>
         <div className="my-8">
           <h2 className="text-2xl font-bold text-[#C0392B] mb-4">İsterseniz Biz Sizi Arayalım</h2>
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSe6wfurTOZCJhGpOW6YPu8GPXDSs7T7R_z1zT06Jd6ZAoqBHw/viewform?usp=header"
-            target="_blank"
-            rel="noopener noreferrer"
+          <button
+            onClick={() => setShowForm(true)}
             className="inline-block bg-gradient-to-r from-[#F5B041] to-[#F39C12] hover:from-[#C0392B] hover:to-[#F5B041] text-[#1C1C1C] hover:text-white font-bold px-8 py-4 rounded-xl transition-all duration-300 shadow-lg text-lg"
           >
             Formu Doldurun
-          </a>
+          </button>
         </div>
       </div>
+      {showForm && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60">
+          <div className="relative max-w-2xl w-full">
+            <button onClick={() => setShowForm(false)} className="absolute top-4 right-4 text-[#C0392B] text-2xl font-bold z-10">&times;</button>
+            <OgrenciKayitFormu />
+          </div>
+        </div>
+      )}
     </div>
   );
 };

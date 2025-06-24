@@ -1,8 +1,10 @@
 import React from 'react';
 import Slider from 'react-slick';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Instagram } from 'lucide-react';
+import { FaWhatsapp } from 'react-icons/fa';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import OgrenciKayitFormu from './OgrenciKayitFormu';
 
 // Custom ok bileşenleri
 interface ArrowProps {
@@ -227,6 +229,9 @@ const Coaches = () => {
             ))}
           </Slider>
         </div>
+
+        {/* Modern Öğrenci Kayıt Formu */}
+        <OgrenciKayitFormu />
       </div>
     </section>
   );
