@@ -84,7 +84,7 @@ const OgrenciKayitFormu = () => {
   };
 
   return (
-    <div className="max-w-2xl mx-auto mt-8 mb-8 bg-gradient-to-br from-[#F8F4EF] to-white rounded-3xl shadow-2xl p-4 sm:p-6 md:p-10 relative">
+    <div className="w-full max-w-md mx-auto mt-4 mb-4 bg-gradient-to-br from-[#F8F4EF] to-white rounded-2xl shadow-2xl p-3 sm:p-5 md:p-8 relative">
       <h2 className="text-3xl md:text-4xl font-bold text-[#C0392B] text-center mb-8">Uzman koçlarımızdan ücretsiz deneme dersi almak için hemen başvurun</h2>
       {success && (
         <div className="bg-green-100 text-green-800 p-4 rounded mb-6 text-center font-semibold">Başvurunuz başarıyla gönderildi!</div>
@@ -92,7 +92,7 @@ const OgrenciKayitFormu = () => {
       {error && (
         <div className="bg-red-100 text-red-800 p-4 rounded mb-6 text-center font-semibold">{error}</div>
       )}
-      <form onSubmit={handleSubmit} className="flex flex-col gap-6">
+      <form onSubmit={handleSubmit} className="flex flex-col gap-4">
         <div>
           <label className="block text-[#C0392B] font-semibold mb-2">Öğrenci Adı ve Soyadı *</label>
           <input
@@ -176,7 +176,8 @@ const OgrenciKayitFormu = () => {
         </div>
         <button
           type="submit"
-          className="w-full bg-[#C0392B] text-white font-bold py-3 rounded-full mt-4 hover:bg-[#F5B041] hover:text-[#1C1C1C] transition-all text-lg shadow-lg"
+          className="w-full bg-[#C0392B] text-white font-bold py-3 rounded-full mt-2 hover:bg-[#F5B041] hover:text-[#1C1C1C] transition-all text-lg shadow-lg"
+          style={{ position: 'sticky', bottom: 0, zIndex: 10 }}
         >
           Gönder
         </button>
