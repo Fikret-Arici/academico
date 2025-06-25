@@ -34,7 +34,7 @@ const sinifSecenekleri = [
   'Üniversite',
 ];
 
-const OgrenciKayitFormu = () => {
+const OgrenciKayitFormu = ({ maxWidth = "md" }: { maxWidth?: "md" | "lg" | "xl" }) => {
   const [form, setForm] = useState(initialState);
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState('');
@@ -84,7 +84,7 @@ const OgrenciKayitFormu = () => {
   };
 
   return (
-    <div className="w-full max-w-md mx-auto mt-4 mb-4 bg-gradient-to-br from-[#F8F4EF] to-white rounded-2xl shadow-2xl p-3 sm:p-5 md:p-8 relative">
+    <div className={`w-full max-w-${maxWidth} mx-auto mt-4 mb-4 bg-gradient-to-br from-[#F8F4EF] to-white rounded-2xl shadow-2xl p-3 sm:p-5 md:p-8 relative`}>
       <h2 className="text-3xl md:text-4xl font-bold text-[#C0392B] text-center mb-8">Uzman koçlarımızdan ücretsiz deneme dersi almak için hemen başvurun</h2>
       {success && (
         <div className="bg-green-100 text-green-800 p-4 rounded mb-6 text-center font-semibold">Başvurunuz başarıyla gönderildi!</div>

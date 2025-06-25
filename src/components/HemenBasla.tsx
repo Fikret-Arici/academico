@@ -35,7 +35,7 @@ const HemenBasla = () => {
         </div>
       </div>
       {showForm && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 p-2 overflow-y-auto">
           <div className="relative max-w-2xl w-full">
             <button onClick={() => setShowForm(false)} className="absolute top-4 right-4 text-[#C0392B] text-2xl font-bold z-10">&times;</button>
             <OgrenciKayitFormu />

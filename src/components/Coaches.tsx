@@ -231,7 +231,7 @@ const Coaches = () => {
         </div>
 
         {/* Modern Öğrenci Kayıt Formu */}
-        <OgrenciKayitFormu />
+        <OgrenciKayitFormu maxWidth="lg" />
       </div>
     </section>
   );
