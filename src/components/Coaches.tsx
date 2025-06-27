@@ -39,6 +39,13 @@ const coaches = [
     image: "/images/coaches/Ahmet Agah Bozkır.jpg"
   },
   {
+    name: "Umut Çapar",
+    university: "Boğaziç Üniversitesi",
+    degree: "Bilgisayar Mühendisliği",
+    ranking: "SAY 607. EA 4258.",
+    image: "/images/coaches/Umut Capar.jpg"
+  },
+  {
     name: "Halit Kaan Kızıltan",
     university: "Özyeğin Üniversitesi",
     degree: "Endüstri Mühendisliği",
