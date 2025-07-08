@@ -55,7 +55,7 @@ const Footer = () => {
             </p>
             <h4 className="text-lg font-semibold mb-4 text-[#F5B041]">Bizi Takip Edin</h4>
             <div className="flex space-x-2">
-              <a href="https://www.instagram.com/academicokocluk/" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-all duration-300 p-2 rounded-full hover:bg-white/10">
+              <a href="https://www.instagram.com/academicoegitim/" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-all duration-300 p-2 rounded-full hover:bg-white/10">
                 <Instagram className="w-6 h-6" />
               </a>
               <a href="https://www.linkedin.com/company/academico-e%C4%9Fitim-platformu/about/?viewAsMember=true" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-all duration-300 p-2 rounded-full hover:bg-white/10">
