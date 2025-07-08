@@ -108,9 +108,9 @@ const Footer = () => {
                 <Phone className="w-5 h-5 text-[#F5B041] mr-3 group-hover:scale-110 transition-transform" />
                 <span className="text-white/80 group-hover:text-white transition-colors">+90 544 373 14 54</span>
               </a>
-              <a href="https://www.instagram.com/academicokocluk/" target="_blank" rel="noopener noreferrer" className="flex items-center group">
+              <a href="https://www.instagram.com/academicoegitim/" target="_blank" rel="noopener noreferrer" className="flex items-center group">
                 <Instagram className="w-5 h-5 text-[#F5B041] mr-3 group-hover:scale-110 transition-transform" />
-                <span className="text-white/80 group-hover:text-white transition-colors">@academicokocluk</span>
+                <span className="text-white/80 group-hover:text-white transition-colors">@academicoegitim</span>
               </a>
             </div>
           </div>
