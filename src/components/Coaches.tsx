@@ -88,6 +88,27 @@ const coaches = [
     image: "/images/coaches/ismet Bilgin.jpg"
   },
   {
+    name: "Aslı Acar",
+    university: "Dokuz Eylül Üniversitesi",
+    degree: "Tıp",
+    ranking: "SAY 5977.",
+    image: "/images/coaches/Asli Acar.jpg"
+  },
+  {
+    name: "İrem Yaşar",
+    university: "İzmir Demokrasi Üniversitesi",
+    degree: "Tıp",
+    ranking: "SAY 22151.",
+    image: "/images/coaches/irem Yasar.jpg"
+  },
+  {
+    name: "Defne Ünlü",
+    university: "Boğaziçi Üniversitesi",
+    degree: "Uluslararası İlişkiler",
+    ranking: "EA 771.",
+    image: "/images/coaches/Defne Unlu.jpg"
+  },
+  {
     name: "Bilgehan Başaran",
     university: "Türk Alman Üniversitesi",
     degree: "Makine Mühendisliği",
