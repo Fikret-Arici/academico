@@ -101,15 +101,8 @@ const Packages = () => {
       features: ["Konu bazlı soru çözüm teknikleri", "Hızlı çözüm yöntemleri", "Tuzak sorulara karşı stratejiler", "Soru analizi ve çözüm mantığı"],
       price: "₺1000/ay",
       category: "Soru Çözüm"
-    },
-    {
-      title: "Üniversite Tercih Danışmanlığı",
-      description: "Kişisel ilgi ve yeteneklerinize uygun üniversite ve bölüm seçimi",
-      icon: <Target className="w-8 h-8" />,
-      features: ["Kişilik ve yetenek analizi", "Bölüm ve meslek tanıtımları", "Üniversite araştırma ve karşılaştırma", "Kariyer planlama ve hedef belirleme"],
-      price: "₺500/seans",
-      category: "Danışmanlık"
     }
+    
   ];
 
   // Show first 6 packages initially
