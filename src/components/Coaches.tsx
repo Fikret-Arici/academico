@@ -40,7 +40,7 @@ const coaches = [
   },
   {
     name: "Umut Çapar",
-    university: "Boğaziç Üniversitesi",
+    university: "Boğaziçi Üniversitesi",
     degree: "Bilgisayar Mühendisliği",
     ranking: "SAY 607. EA 4258.",
     image: "/images/coaches/Umut Capar.jpg"
