@@ -54,14 +54,14 @@ const coaches = [
   },
   {
     name: "Talha Özalpay",
-    university: "Boğaziçi Üniversitesi",
+    university: "Dokuz Eylül Üniversitesi",
     degree: "Tıp",
     ranking: "TYT 2383.",
     image: "/images/coaches/Talha Özalpay.jpg"
   },
   {
     name: "Neva Arslan",
-    university: "Dokuz Eylül Üniversitesi",
+    university: "Boğaziçi Üniversitesi",
     degree: "Makine Mühendisliği",
     ranking: "SAY 2526.",
     image: "/images/coaches/Neva Arslan.jpg"
