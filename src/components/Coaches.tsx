@@ -60,13 +60,6 @@ const coaches = [
     image: "/images/coaches/Talha Özalpay.jpg"
   },
   {
-    name: "Neva Arslan",
-    university: "Boğaziçi Üniversitesi",
-    degree: "Makine Mühendisliği",
-    ranking: "SAY 2526.",
-    image: "/images/coaches/Neva Arslan.jpg"
-  },
-  {
     name: "Elif Dikmen",
     university: "Yıldız Teknik Üniversitesi",
     degree: "İstatistik",
