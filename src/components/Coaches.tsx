@@ -67,6 +67,13 @@ const coaches = [
     image: "/images/coaches/Elif Dikmen.jpg"
   },
   {
+    name: "Burak Temiz",
+    university: "Boğaziçi Üniversitesi",
+    degree: "PDR",
+    ranking: "EA 5264",
+    image: "/images/coaches/Burak Temiz.jpg"
+  },
+  {
     name: "Arda Güder",
     university: "Ege Üniversitesi",
     degree: "Tıp",
