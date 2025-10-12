@@ -71,7 +71,7 @@ const coaches = [
     university: "Türk Alman Üniversitesi",
     degree: "Hukuk",
     ranking: "EA 4803",
-    image: "/images/coaches/Nilay Okur.jpg"
+    image: "/images/coaches/NilayOkur.jpg"
   },
   {
     name: "Arda Güder",
