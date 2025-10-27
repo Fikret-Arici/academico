@@ -26,7 +26,7 @@ const Packages = () => {
       description: "Yapay zekâ destekli kişisel program ile üniversite sınavına hazırlanın",
       icon: <Target className="w-8 h-8" />,
       features: ["Her derse özel deneme analizleri", "Zayıf konuya odaklı çalışma planı", "AI destekli deneme analizleri", "Koçluk ve motivasyon takibi"],
-      price: "₺1800/ay",
+      price: "₺2300/ay",
       category: "Sınav Hazırlık"
     },
     {
@@ -34,7 +34,7 @@ const Packages = () => {
       description: "Yapay zekâ destekli kişisel program ile Lise sınavına hazırlanın",
       icon: <BookOpen className="w-8 h-8" />,
       features: ["Günlük performans takibi", "Psikolojik destek ve sınav koçluğu", "Deneme sınavı ve analizleri", "Öğrenciye özel birebir dersler"],
-      price: "₺1800/ay",
+      price: "₺2300/ay",
       category: "Sınav Hazırlık"
     },
     {
@@ -42,7 +42,7 @@ const Packages = () => {
       description: "İhtiyaca özel birebir öğretmen eşleşmesi ile kişiselleştirilmiş eğitim",
       icon: <Users className="w-8 h-8" />,
       features: ["Esnek gün ve saat seçimi", "Soru çözüm destek hattı", "İlerlemeni takip eden danışman", "Tüm derslerde uzman eğitmen kadrosu"],
-      price: "₺650/seans",
+      price: "₺750/seans",
       category: "Özel Ders"
     },
     {
