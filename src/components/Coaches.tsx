@@ -66,13 +66,7 @@ const coaches = [
     ranking: "TYT 3043.",
     image: "/images/coaches/Elif Dikmen.jpg"
   },
-  {
-    name: "Nilay Okur ",
-    university: "Türk Alman Üniversitesi",
-    degree: "Hukuk",
-    ranking: "EA 4803",
-    image: "/images/coaches/NilayOkur.jpg"
-  },
+  
   {
     name: "Arda Güder",
     university: "Ege Üniversitesi",
