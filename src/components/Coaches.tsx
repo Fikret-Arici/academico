@@ -125,7 +125,7 @@ const coaches = [
     name: "Fikret Arıcı",
     university: "Gazi Üniversitesi",
     degree: "Bilgisayar Mühendisliği",
-    ranking: "SAY 9986.",
+    ranking: "TYT 9986.",
     image: "/images/coaches/Fikret Arıcı.jpg"
   },{
     name: "Mehmet Tuğra Durmazer",
